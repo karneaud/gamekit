@@ -204,7 +204,6 @@ gamekit.loadAssets = function (assetNames){
 				default:
 					a = new Image(); break;
 			}
-			a = new Image();
 			a.onload = callbackFunction;
 			a.onerror = errorFunction;
 			a.assetKey = assetNames[i][0];
