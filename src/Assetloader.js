@@ -198,7 +198,7 @@ gamekit.loadAssets = function (assetNames){
 		if(gamekit.a[assetNames[i][0]] === undefined){
 			var assetFile = assetNames[i][1];
 			var assetFileExt = assetFile.substr((assetFile.lastIndexOf('.') + 1));
-			swtich(true){
+			switch(true){
 				case: assetFileExt.search(/mp3|ogg|webm|wav/) != -1
 					a = new Audio(); break;
 				default:
