@@ -199,7 +199,7 @@ gamekit.loadAssets = function (assetNames){
 			var assetFile = assetNames[i][1];
 			var assetFileExt = assetFile.substr((assetFile.lastIndexOf('.') + 1));
 			switch(true){
-				case: assetFileExt.search(/mp3|ogg|webm|wav/) != -1
+				case assetFileExt.search(/mp3|ogg|webm|wav/) != -1 :
 					a = new Audio(); break;
 				default:
 					a = new Image(); break;
